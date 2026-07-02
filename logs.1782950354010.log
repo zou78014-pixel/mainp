@@ -1,0 +1,174 @@
+2026-07-01T23:56:20.114946359Z [inf]  scheduling build on Metal builder "builder-gugrhl"
+2026-07-01T23:56:20.701924792Z [inf]  unpacking archive
+2026-07-01T23:56:20.830663961Z [inf]  using build driver railpack-v0.30.0
+2026-07-01T23:56:20.847713712Z [inf]  uploading snapshot
+2026-07-01T23:56:21.019305047Z [inf]                     
+2026-07-01T23:56:21.019310906Z [inf]  [38;2;125;86;243m╭─────────────────╮[0m
+2026-07-01T23:56:21.019312178Z [inf]  [38;2;125;86;243m│[0m Railpack 0.30.0 [38;2;125;86;243m│[0m
+2026-07-01T23:56:21.019313339Z [inf]  [38;2;125;86;243m╰─────────────────╯[0m
+2026-07-01T23:56:21.019313991Z [inf]  
+2026-07-01T23:56:21.019315994Z [inf]    [97m↳ Detected Python[0m
+2026-07-01T23:56:21.019316935Z [inf]    [97m↳ Using pip[0m
+2026-07-01T23:56:21.019319198Z [inf]              
+2026-07-01T23:56:21.019319919Z [inf]    [1mPackages[0m  
+2026-07-01T23:56:21.019321402Z [inf]    [38;5;238m──────────[0m
+2026-07-01T23:56:21.019324446Z [inf]    [95mpython[0m  [38;5;238m│[0m  [96m3.13.14[0m  [38;5;238m│[0m  railpack default (3.13)
+2026-07-01T23:56:21.019325147Z [inf]              
+2026-07-01T23:56:21.019325938Z [inf]    [1mSteps[0m     
+2026-07-01T23:56:21.019326759Z [inf]    [38;5;238m──────────[0m
+2026-07-01T23:56:21.019327561Z [inf]    [95m▸ install[0m
+2026-07-01T23:56:21.019329193Z [inf]      [38;5;245m$[0m [1mpython -m venv /app/.venv[0m
+2026-07-01T23:56:21.019330035Z [inf]      [38;5;245m$[0m [1mpip install -r requirements.txt[0m
+2026-07-01T23:56:21.019337466Z [inf]              
+2026-07-01T23:56:21.019338307Z [inf]    [1mDeploy[0m    
+2026-07-01T23:56:21.019340651Z [inf]    [38;5;238m──────────[0m
+2026-07-01T23:56:21.019341612Z [inf]      [38;5;245m$[0m [1mpython bot.py[0m
+2026-07-01T23:56:21.019343795Z [inf]  
+2026-07-01T23:56:21.117790975Z [inf]  resolve image config for docker-image://ghcr.io/railwayapp/railpack-frontend:v0.30.0
+2026-07-01T23:56:21.295648842Z [inf]  resolve image config for docker-image://ghcr.io/railwayapp/railpack-frontend:v0.30.0
+2026-07-01T23:56:21.296014901Z [inf]  docker-image://ghcr.io/railwayapp/railpack-frontend:v0.30.0@sha256:8120546d9e67be53c7edebec900ed69ef724fbde890d43cb24455dfca4aebcc0
+2026-07-01T23:56:21.296016944Z [inf]  docker-image://ghcr.io/railwayapp/railpack-frontend:v0.30.0@sha256:8120546d9e67be53c7edebec900ed69ef724fbde890d43cb24455dfca4aebcc0
+2026-07-01T23:56:21.296017344Z [inf]  docker-image://ghcr.io/railwayapp/railpack-frontend:v0.30.0@sha256:8120546d9e67be53c7edebec900ed69ef724fbde890d43cb24455dfca4aebcc0
+2026-07-01T23:56:21.432486872Z [inf]  load build definition from ./railpack-plan.json
+2026-07-01T23:56:21.432700783Z [inf]  load build definition from ./railpack-plan.json
+2026-07-01T23:56:21.432749556Z [inf]  load build definition from ./railpack-plan.json
+2026-07-01T23:56:21.474328781Z [inf]  load build definition from ./railpack-plan.json
+2026-07-01T23:56:21.630959269Z [inf]  copy /usr/local/bin/mise
+2026-07-01T23:56:21.630962484Z [inf]  copy /mise/installs
+2026-07-01T23:56:21.630962864Z [inf]  copy /root/.local/state/mise
+2026-07-01T23:56:21.630963095Z [inf]  install mise packages: python
+2026-07-01T23:56:21.630963345Z [inf]  create mise config
+2026-07-01T23:56:21.630963586Z [inf]  mkdir /etc/mise
+2026-07-01T23:56:21.630963916Z [inf]  python -m venv /app/.venv
+2026-07-01T23:56:21.630964166Z [inf]  loading .
+2026-07-01T23:56:21.630964397Z [inf]  copy requirements.txt
+2026-07-01T23:56:21.630964617Z [inf]  pip install -r requirements.txt
+2026-07-01T23:56:21.630964847Z [inf]  copy /etc/mise/config.toml
+2026-07-01T23:56:21.630966680Z [inf]  copy /mise/shims
+2026-07-01T23:56:21.630968202Z [inf]  docker-image://ghcr.io/railwayapp/railpack-builder:mise-2026.6.12
+2026-07-01T23:56:21.630968423Z [inf]  docker-image://ghcr.io/railwayapp/railpack-builder:mise-2026.6.12
+2026-07-01T23:56:21.630968863Z [inf]  docker-image://ghcr.io/railwayapp/railpack-runtime:mise-2026.6.12
+2026-07-01T23:56:21.630969074Z [inf]  docker-image://ghcr.io/railwayapp/railpack-runtime:mise-2026.6.12
+2026-07-01T23:56:21.630969294Z [inf]  docker-image://ghcr.io/railwayapp/railpack-runtime:mise-2026.6.12
+2026-07-01T23:56:21.630979049Z [inf]  [railpack] merge ghcr.io/railwayapp/railpack-runtime:mise-2026.6.12, $packages:mise, $build, $build
+2026-07-01T23:56:21.630979550Z [inf]  copy /app
+2026-07-01T23:56:21.630979780Z [inf]  copy /app/.venv
+2026-07-01T23:56:21.630980010Z [inf]  copy / /app
+2026-07-01T23:56:21.631079069Z [inf]  loading .
+2026-07-01T23:56:21.652568541Z [inf]  mkdir /etc/mise
+2026-07-01T23:56:21.652570224Z [inf]  create mise config
+2026-07-01T23:56:21.652570565Z [inf]  loading .
+2026-07-01T23:56:21.652819458Z [inf]  install mise packages: python
+2026-07-01T23:56:21.705268152Z [inf]  loading .
+2026-07-01T23:56:21.994145251Z [inf]  mise python@3.13.14  [1/3] install
+
+2026-07-01T23:56:21.995282387Z [inf]  mise python@3.13.14  [1/3] download cpython-3.13.14+20260623-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz
+
+2026-07-01T23:56:22.21957875Z [inf]  mise python@3.13.14  [1/3] generate checksum cpython-3.13.14+20260623-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz
+
+2026-07-01T23:56:22.24032038Z [inf]  mise python@3.13.14  [1/3] verify GitHub artifact attestations
+
+2026-07-01T23:56:23.766427792Z [inf]  mise python@3.13.14  [1/3] ✓ GitHub artifact attestations verified
+
+2026-07-01T23:56:23.76651948Z [inf]  mise python@3.13.14  [1/3] extract cpython-3.13.14+20260623-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz
+
+2026-07-01T23:56:24.215192836Z [inf]  mise python@3.13.14  [1/3] python --version
+
+2026-07-01T23:56:24.220259708Z [inf]  mise python@3.13.14  [1/3] Python 3.13.14
+
+2026-07-01T23:56:24.228686862Z [inf]  mise python@3.13.14 ✓ installed
+
+2026-07-01T23:56:24.443341929Z [inf]  install mise packages: python
+2026-07-01T23:56:24.451622754Z [inf]  python -m venv /app/.venv
+2026-07-01T23:56:28.510958014Z [inf]  python -m venv /app/.venv
+2026-07-01T23:56:28.563360548Z [inf]  copy requirements.txt
+2026-07-01T23:56:29.992325107Z [inf]  copy requirements.txt
+2026-07-01T23:56:30.009790462Z [inf]  pip install -r requirements.txt
+2026-07-01T23:56:31.200195318Z [inf]  Collecting python-telegram-bot==22.8 (from -r requirements.txt (line 1))
+
+2026-07-01T23:56:31.226146535Z [inf]    Downloading python_telegram_bot-22.8-py3-none-any.whl.metadata (17 kB)
+
+2026-07-01T23:56:31.298718522Z [inf]  Collecting requests (from -r requirements.txt (line 2))
+
+2026-07-01T23:56:31.303088518Z [inf]    Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+
+2026-07-01T23:56:31.339059298Z [inf]  Collecting httpx<0.29,>=0.27 (from python-telegram-bot==22.8->-r requirements.txt (line 1))
+
+2026-07-01T23:56:31.343468834Z [inf]    Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+
+2026-07-01T23:56:31.376029358Z [inf]  Collecting anyio (from httpx<0.29,>=0.27->python-telegram-bot==22.8->-r requirements.txt (line 1))
+
+2026-07-01T23:56:31.379535539Z [inf]    Downloading anyio-4.14.1-py3-none-any.whl.metadata (4.6 kB)
+
+2026-07-01T23:56:31.409110753Z [inf]  Collecting certifi (from httpx<0.29,>=0.27->python-telegram-bot==22.8->-r requirements.txt (line 1))
+
+2026-07-01T23:56:31.41315402Z [inf]    Downloading certifi-2026.6.17-py3-none-any.whl.metadata (2.5 kB)
+
+2026-07-01T23:56:31.441135092Z [inf]  Collecting httpcore==1.* (from httpx<0.29,>=0.27->python-telegram-bot==22.8->-r requirements.txt (line 1))
+
+2026-07-01T23:56:31.444597307Z [inf]    Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+
+2026-07-01T23:56:31.471008454Z [inf]  Collecting idna (from httpx<0.29,>=0.27->python-telegram-bot==22.8->-r requirements.txt (line 1))
+
+2026-07-01T23:56:31.475425552Z [inf]    Downloading idna-3.18-py3-none-any.whl.metadata (6.1 kB)
+
+2026-07-01T23:56:31.514681611Z [inf]  Collecting h11>=0.16 (from httpcore==1.*->httpx<0.29,>=0.27->python-telegram-bot==22.8->-r requirements.txt (line 1))
+
+2026-07-01T23:56:31.518395163Z [inf]    Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+
+2026-07-01T23:56:31.614815371Z [inf]  Collecting charset_normalizer<4,>=2 (from requests->-r requirements.txt (line 2))
+
+2026-07-01T23:56:31.618229524Z [inf]    Downloading charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+
+2026-07-01T23:56:31.649510247Z [inf]  Collecting urllib3<3,>=1.26 (from requests->-r requirements.txt (line 2))
+
+2026-07-01T23:56:31.652106552Z [inf]    Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+
+2026-07-01T23:56:31.664415231Z [inf]  Downloading python_telegram_bot-22.8-py3-none-any.whl (769 kB)
+
+2026-07-01T23:56:31.683329329Z [inf]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 769.4/769.4 kB 41.3 MB/s  0:00:00
+2026-07-01T23:56:31.683432143Z [inf]  
+2026-07-01T23:56:31.686681909Z [inf]  Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+
+2026-07-01T23:56:31.702029096Z [inf]  Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+
+2026-07-01T23:56:31.710432865Z [inf]  Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+
+2026-07-01T23:56:31.720172799Z [inf]  Downloading charset_normalizer-3.4.7-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (215 kB)
+
+2026-07-01T23:56:31.729715737Z [inf]  Downloading idna-3.18-py3-none-any.whl (65 kB)
+
+2026-07-01T23:56:31.739239536Z [inf]  Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+
+2026-07-01T23:56:31.748352159Z [inf]  Downloading certifi-2026.6.17-py3-none-any.whl (133 kB)
+
+2026-07-01T23:56:31.757236328Z [inf]  Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+
+2026-07-01T23:56:31.768194821Z [inf]  Downloading anyio-4.14.1-py3-none-any.whl (124 kB)
+
+2026-07-01T23:56:31.820217095Z [inf]  Installing collected packages: urllib3, idna, h11, charset_normalizer, certifi, requests, httpcore, anyio, httpx, python-telegram-bot
+
+2026-07-01T23:56:32.561157446Z [inf]  
+2026-07-01T23:56:32.562547663Z [inf]  Successfully installed anyio-4.14.1 certifi-2026.6.17 charset_normalizer-3.4.7 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.18 python-telegram-bot-22.8 requests-2.34.2 urllib3-2.7.0
+
+2026-07-01T23:56:34.102502430Z [inf]  pip install -r requirements.txt
+2026-07-01T23:56:34.139077838Z [inf]  copy / /app
+2026-07-01T23:56:34.325618182Z [inf]  copy / /app
+2026-07-01T23:56:34.913517071Z [inf]  copy /app/.venv
+2026-07-01T23:56:34.913518764Z [inf]  copy /mise/shims
+2026-07-01T23:56:34.913519766Z [inf]  copy /mise/installs
+2026-07-01T23:56:34.913521148Z [inf]  copy /usr/local/bin/mise
+2026-07-01T23:56:34.913521709Z [inf]  copy /etc/mise/config.toml
+2026-07-01T23:56:34.913522419Z [inf]  copy /root/.local/state/mise
+2026-07-01T23:56:34.913540176Z [inf]  copy /root/.local/state/mise
+2026-07-01T23:56:34.920756413Z [inf]  copy /app
+2026-07-01T23:56:35.305791848Z [inf]  copy /app
+2026-07-01T23:56:35.446143460Z [inf]  copy /app/.venv
+2026-07-01T23:56:35.459686330Z [inf]  [railpack] merge ghcr.io/railwayapp/railpack-runtime:mise-2026.6.12, $packages:mise, $build, $build
+2026-07-01T23:56:35.580008230Z [inf]  [railpack] merge ghcr.io/railwayapp/railpack-runtime:mise-2026.6.12, $packages:mise, $build, $build
+2026-07-01T23:56:35.589663437Z [inf]  exporting to docker image format
+2026-07-01T23:56:36.536754366Z [inf]  exporting to docker image format
+2026-07-01T23:56:36.580100622Z [inf]  containerimage.config.digest: sha256:cc5ce193286c814cdc662179e7be1ecac41b3a33607b61c8680fb01d02681dc6
+2026-07-01T23:56:36.580106311Z [inf]  containerimage.digest: sha256:b1bf18f66132affb837cad3a449984ff9dd1afd8c0a1968587ae12e1862ae0d8
+2026-07-01T23:56:36.580113241Z [inf]  containerimage.descriptor: eyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQub2NpLmltYWdlLm1hbmlmZXN0LnYxK2pzb24iLCJkaWdlc3QiOiJzaGEyNTY6YjFiZjE4ZjY2MTMyYWZmYjgzN2NhZDNhNDQ5OTg0ZmY5ZGQxYWZkOGMwYTE5Njg1ODdhZTEyZTE4NjJhZTBkOCIsInNpemUiOjIwMDQsImFubm90YXRpb25zIjp7Im9yZy5vcGVuY29udGFpbmVycy5pbWFnZS5jcmVhdGVkIjoiMjAyNi0wNy0wMVQyMzo1NjozNVoifSwicGxhdGZvcm0iOnsiYXJjaGl0ZWN0dXJlIjoiYW1kNjQiLCJvcyI6ImxpbnV4In19
+2026-07-01T23:56:45.039793310Z [inf]  image push
